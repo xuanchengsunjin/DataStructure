@@ -2,6 +2,8 @@ package com.jimsun.sort;
 
 import org.junit.Test;
 
+import com.jimsun.implement.Sort;
+
 public class TestUntil {
 	Integer[] arr = new Integer[10];
 	{ 
@@ -12,7 +14,7 @@ public class TestUntil {
 	}
 	@Test
 	public void test0(){
-		directInsert<Integer> test0=new directInsert<Integer>();
+		Sort<Integer> test0=new directInsert<Integer>();
 		test0.setElement(arr);
 		test0.sortAndprint(true);
 	}
