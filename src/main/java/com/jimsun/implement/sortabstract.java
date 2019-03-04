@@ -37,6 +37,9 @@ public abstract class sortabstract<T extends Comparable<T>> implements Sort<T> {
 		}
 	}
 	protected void swap(T[] arr,int a,int b) {
+		if((a == b)) {
+			return;
+		}
 		T temp = arr[a];
 		arr[a] = arr[b];
 		arr[b] = temp;
