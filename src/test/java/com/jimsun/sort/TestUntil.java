@@ -15,7 +15,8 @@ public class TestUntil {
 	@Test
 	public void test0(){
 		//Sort<Integer> test0=new directInsert<Integer>();
-		Sort<Integer> test0=new shellSort<Integer>();
+		//Sort<Integer> test0=new shellSort<Integer>();
+		Sort<Integer> test0=new simplechooseSort<Integer>();
 		test0.setElement(arr);
 		test0.sortAndprint(true);
 	}
