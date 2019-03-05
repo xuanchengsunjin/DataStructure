@@ -5,6 +5,7 @@ import org.junit.Test;
 import com.jimsun.implement.Sort;
 import com.jimsun.implement.bubbleSort;
 import com.jimsun.implement.heapSort;
+import com.jimsun.implement.mergeSort;
 import com.jimsun.implement.quikSort;
 
 public class TestUntil {
@@ -22,7 +23,8 @@ public class TestUntil {
 		//Sort<Integer> test0=new simplechooseSort<Integ
 		//Sort<Integer> test0=new quikSort<Integer>();
 		//Sort<Integer> test0=new heapSort<Integer>();
-		Sort<Integer> test0=new bubbleSort<Integer>();
+		//Sort<Integer> test0=new bubbleSort<Integer>();
+		Sort<Integer> test0=new mergeSort<Integer>();
 		test0.setElement(arr);
 		test0.sortAndprint(true);
 	}
