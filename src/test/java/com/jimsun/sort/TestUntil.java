@@ -3,10 +3,6 @@ package com.jimsun.sort;
 import org.junit.Test;
 
 import com.jimsun.implement.Sort;
-import com.jimsun.implement.bubbleSort;
-import com.jimsun.implement.heapSort;
-import com.jimsun.implement.mergeSort;
-import com.jimsun.implement.quikSort;
 
 public class TestUntil {
 	Integer[] arr = new Integer[10];

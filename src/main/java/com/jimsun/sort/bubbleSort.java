@@ -1,4 +1,6 @@
-package com.jimsun.implement;
+package com.jimsun.sort;
+
+import com.jimsun.implement.sortabstract;
 
 public class bubbleSort<T  extends Comparable<T>> extends sortabstract<T> {
 

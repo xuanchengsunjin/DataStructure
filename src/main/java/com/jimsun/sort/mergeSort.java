@@ -1,6 +1,8 @@
-package com.jimsun.implement;
+package com.jimsun.sort;
 
 import java.lang.reflect.*;
+
+import com.jimsun.implement.sortabstract;
 public class mergeSort <T extends Comparable<T>>extends sortabstract<T> {
 
 	@Override
