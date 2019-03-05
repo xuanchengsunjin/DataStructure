@@ -20,7 +20,8 @@ public class TestUntil {
 		//Sort<Integer> test0=new quikSort<Integer>();
 		//Sort<Integer> test0=new heapSort<Integer>();
 		//Sort<Integer> test0=new bubbleSort<Integer>();
-		Sort<Integer> test0=new mergeSort<Integer>();
+		//Sort<Integer> test0=new mergeSort<Integer>();
+		Sort<Integer> test0=new basicSort<Integer>();
 		test0.setElement(arr);
 		test0.sortAndprint(true);
 	}
