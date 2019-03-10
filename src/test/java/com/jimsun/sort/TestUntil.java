@@ -15,10 +15,10 @@ public class TestUntil {
 	}
 	@Test
 	public void test1(){
-		arr[0]=4;
+		arr[0]=-1;
 		arr[1]=-3;
 		arr[2]=34;
-		arr[3]=92;
+		arr[3]=2;
 		System.out.println(Sample0.findMaxArraychild(arr));
 		
 	}

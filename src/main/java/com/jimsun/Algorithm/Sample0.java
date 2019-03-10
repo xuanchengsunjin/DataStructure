@@ -10,6 +10,9 @@ public class Sample0 extends FindMaxInt{
 		if(n == 0) {
 			return arr[0];
 		}
+		if(arr[n]<0 && n-2>=0) {
+			return max(arr[n-1],arr[n-1]+F(n-2,arr));
+		}
 		else {
 			return max(arr[n],arr[n]+F(n-1,arr));
 		}
